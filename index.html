@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Urban Dwelling</title>
+</head>
+<body>
+    <div class="overheader">
+        <div class="overheader_wrapper">
+            <ul class="overheader_ul">
+                <li class="overheader_ul_item delivery"><a href="#">Доставка и оплата</a></li>
+                <li class="overheader_ul_item warranty"><a href="#">Гарантия и возврат</a></li>
+                <li class="overheader_ul_item lang"><a href="#">EN</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header_wrapper">
+            <a href="#" class="logo"><img src="./ui/Logo.svg" alt="Логотип"></a>
+            <div class="main_menu">
+                <ul class="main_menu_ul">
+                    <li class="main_menu_item"><a href="#">Каталог</a></li>
+                    <li class="main_menu_item"><a href="#">О компании</a></li>
+                    <li class="main_menu_item"><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="search_menu">
+                <ul class="search_menu_ul">
+                    <li class="search_menu_item">
+                        <button class="search_item">
+                            <img src="./ui/search-normal.svg" alt="Поиск">
+                        </button>
+                        <div class="header_input_container">
+                            <input type="text" placeholder="Лампы" class="header_input">
+                            <button class="header_input_button"><img src="./ui/search-normal-black.svg" alt="Поиск"></button>
+                        </div>
+                    </li>
+                    <li class="search_menu_item">
+                        <button class="cart_item">
+                            <div class="cart_icon">
+                                <img src="./ui/Cart.svg" alt="Корзина">
+                                <span id="cart_count">3</span>
+                            </div>
+                            <span id="cart_title">Корзина</ы>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="burger_menu">
+                <button class="burger_menu_button"><img src="/ui/burger.svg" alt="Бургер" class="burger_menu_icon"></button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_wrapper">
+            <img src="./ui/searchResult_icon.svg" alt="Результаты поиска" id="cards_title">
+            <div class="main_cards">
+                <ul class="main_cards_ul">
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_1">
+                            <p class="cards_stock">Акция</p>
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Встраиваемый светильник Markt</p>
+                            <div class="card_desc_price"> 
+                                <p class="price_current">3 490 ₽</p>
+                                <p class="price_discount">5 060 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_2">
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Линейный светильник ARG</p>
+                            <div class="card_desc_price"> 
+                                <p class="price">6 700 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_3">
+                            <p class="cards_stock">Акция</p>
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Сведодиодный светильник</p>
+                            <div class="card_desc_price"> 
+                                <p class="price_current">5 060 ₽</p>
+                                <p class="price_discount">22 060 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_4">
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Встраиваемый светильник Markt</p>
+                            <div class="card_desc_price"> 
+                                <p class="price">3 490 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_5">
+                            <p class="cards_stock">Акция</p>
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Линейный светильник ARG</p>
+                            <div class="card_desc_price"> 
+                                <p class="price_current">6 700 ₽</p>
+                                <p class="price_discount">7 060 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_6">
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Сведодиодный светильник</p>
+                            <div class="card_desc_price"> 
+                                <p class="price">5 060 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_7">
+                            <p class="cards_stock">Акция</p>
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Встраиваемый светильник Markt</p>
+                            <div class="card_desc_price"> 
+                                <p class="price_current">3 490 ₽</p>
+                                <p class="price_discount">7 060 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main_cards_item">
+                        <div class="img_wrap" id="card_8">
+                            <button class="cards_info">Подробнее</button>
+                        </div>
+                        <div class="card_desc">
+                            <p class="card_desc_title">Линейный светильник ARG</p>
+                            <div class="card_desc_price"> 
+                                <p class="price">6 700 ₽</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer_wrap">
+            <div class="footer_flex_el desktop">
+                <div class="footer_logo_captcha">
+                    <img src="./ui/footerLogo.svg" alt="Логотип" class="footer_logo">
+                    <div class="footer_captcha_info">
+                        <p class="captcha_text">Этот сайт защищен от спама службой reCAPTCHA Google. <a href="#">Политика конфиденциальности</a>/<a href="#">Условия предоставления услуг</a></p>
+                    </div>
+                </div>
+                <div class="footer_address_contacts">
+                    <div class="footer_address">
+                        <h2 class="footer_address_title">Адрес</h2>
+                        <p class="footer_address_info">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="footer_contacts">
+                        <h1 class="footer_contacts_title">Контакты</h1>
+                        <p class="footer_contacts_email">Email: urban.dwelling@yandex.com</p>
+                        <p class="footer_contacts_phone">Телефон: 8 (999) 999-99-99</p>
+                    </div>
+                </div>
+                <div class="footer_services">
+                    <h2 class="footer_services_title">Услуги</h2>
+                    <ul class="footer_services_ul">
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Гарантия и возврат</a></li>
+                    </ul>
+                </div>
+                <div class="footer_docs_pay">
+                    <div class="footer_docs">
+                        <p class="public_offer"><a href="#">Публичная оферта</a></p>
+                        <p class="personal_policy"><a href="#">Политика персональных данных</a></p>
+                    </div>
+                    <div class="footer_pay">
+                        <ul class="footer_pay_ul">
+                            <li class="footer_pay_item"><a href="#"><img src="/ui/mir.svg" alt=""></a></li>
+                            <li class="footer_pay_item"><a href="#"><img src="/ui/visa.svg" alt=""></a></li>
+                            <li class="footer_pay_item"><a href="#"><img src="/ui/mastercard.svg" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_flex_el mobile">
+                <img src="./ui/footerLogo.svg" alt="Логотип" class="footer_logo">
+                <div class="footer_flex_el_container">
+                    <div class="footer_address">
+                        <h2 class="footer_address_title">Адрес</h2>
+                        <p class="footer_address_info">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="footer_contacts">
+                        <h1 class="footer_contacts_title">Контакты</h1>
+                        <p class="footer_contacts_email">Email: urban.dwelling@yandex.com</p>
+                        <p class="footer_contacts_phone">Телефон: 8 (999) 999-99-99</p>
+                    </div>
+                    <div class="footer_services">
+                        <h2 class="footer_services_title">Услуги</h2>
+                        <ul class="footer_services_ul">
+                            <li><a href="#">Каталог</a></li>
+                            <li><a href="#">О компании</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Гарантия и возврат</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_docs">
+                    <p class="public_offer"><a href="#">Публичная оферта</a></p>
+                    <p class="personal_policy"><a href="#">Политика персональных данных</a></p>
+                </div>
+
+                <div class="footer_pay_captcha">
+                    <div class="footer_pay">
+                    <ul class="footer_pay_ul">
+                        <li class="footer_pay_item"><a href="#"><img src="/ui/mir.svg" alt=""></a></li>
+                        <li class="footer_pay_item"><a href="#"><img src="/ui/visa.svg" alt=""></a></li>
+                        <li class="footer_pay_item"><a href="#"><img src="/ui/mastercard.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer_captcha_info">
+                    <p class="captcha_text">Этот сайт защищен от спама службой reCAPTCHA Google.<a href="#">Политика конфиденциальности</a>/<a href="#">Условия предоставления услуг</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
