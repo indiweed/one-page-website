@@ -291,19 +291,19 @@ a {
 
 
 #card_1, #card_4, #card_7 {
-    background-image: url(/ui/item_1.svg);
+    background-image: url(./ui/item_1.svg);
     border-radius: 20px;
     background-size: cover;
 }
 
 #card_2, #card_5, #card_8 {
-    background-image: url(/ui/item_2.svg);
+    background-image: url(./ui/item_2.svg);
     border-radius: 20px;
     background-size: cover;
 }
 
 #card_3, #card_6 {
-    background-image: url(/ui/item_3.svg);
+    background-image: url(./ui/item_3.svg);
     border-radius: 20px;
     background-size: cover;
 }
@@ -360,7 +360,6 @@ a {
 }
 
 .price {
-    font-size: 22px;
     font-weight: 700;
 }
 
@@ -398,10 +397,16 @@ a {
         width: 70px;
         height: 24px;
         font-size: 14px;
-        padding: 2px 15px;
+        padding: 3.5px 15px;
     }
     .cards_info {
         display: none;
+    }
+    .card_desc_title {
+        font-size: 16px;
+    }
+    .card_desc_price {
+        font-size: 16px;
     }
 }
 
